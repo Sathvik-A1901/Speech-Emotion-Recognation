@@ -1,13 +1,14 @@
 # Speech-Emotion-Recognation
 
 DESCRIPTION
-              The project is all about speech emotion recognation, recognizing emotions like happy,fear,surprise,sad,angry,disgust.Making a computer understand 
-              our emotions by recognizing our voice would help in our real life senarios like customer care services, Emergency calls,improving features in bots
-              like alexa,and deploying models in robots make them more interactive with humans.The dataset which we have considered is TESS dataset.The features 
-              for every emotion included a Mel-frequency cepstral coefficients. This coefficients describes overall shape of spectral envelope. This fretures are
-              extracted for every voice in the dataset.We have developed a deep learning model and trained the model with those features(coefficients). The model 
-              which we considered spcifically called as LSTM (Long Short Term Memory) Reccurent Neural Network.It's basically a RNN where its gates in the neurons 
-              make them stand a part from the acutal RNN. 
+
+          The project is all about speech emotion recognation, recognizing emotions like happy,fear,surprise,sad,angry,disgust.Making a computer understand 
+           our emotions by recognizing our voice would help in our real life senarios like customer care services, Emergency calls,improving features in bots
+          like alexa,and deploying models in robots make them more interactive with humans.The dataset which we have considered is TESS dataset.The features 
+           for every emotion included a Mel-frequency cepstral coefficients. This coefficients describes overall shape of spectral envelope. This fretures are
+           extracted for every voice in the dataset.We have developed a deep learning model and trained the model with those features(coefficients). The model 
+           which we considered spcifically called as LSTM (Long Short Term Memory) Reccurent Neural Network.It's basically a RNN where its gates in the neurons 
+           make them stand a part from the acutal RNN. 
               
               
    The project underwent few phases in Data Science.
