@@ -29,6 +29,7 @@ The project underwent few phases in Data Science.
    Phase 3:-   
    
    Feature Extraction:
+   
       We can't take the raw audio signal as input to our model because there will be a lot of noise in the audio signal. It is observed that extraction features 
       from the audio signal and using it as input to the base model will produce much better performance than directly considering raw audio signal as input.MFCC is
       the widely used technique for extracting the features from audio signal.
