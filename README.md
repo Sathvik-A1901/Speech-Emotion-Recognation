@@ -12,6 +12,7 @@ make them stand a part from the acutal RNN.
               
               
 The project underwent few phases in Data Science.
+
    Phase 1:-
    
       Data Collection:-
@@ -27,9 +28,8 @@ The project underwent few phases in Data Science.
       of different emotions with different modulations
    
    Phase 3:-   
-   
-   Feature Extraction:
-   
+      
+      Feature Extraction:
       We can't take the raw audio signal as input to our model because there will be a lot of noise in the audio signal. It is observed that extraction features 
       from the audio signal and using it as input to the base model will produce much better performance than directly considering raw audio signal as input.MFCC is
       the widely used technique for extracting the features from audio signal.
@@ -41,8 +41,11 @@ The project underwent few phases in Data Science.
        from time to time. More over  we need a model which keeps track of our recent data . There is a RNN varient called LSTM RNN which keeps on track of our past            actions.A traditional RNN has a single hidden state that is passed through time, which can make it difficult for the network to learn long-term dependencies.          LSTMs address this problem by introducing a memory cell, which is a container that can hold information for an extended period of time. The memory cell is              controlled by three gates: the input gate, the forget gate, and the output gate. These gates decide what information to add to, remove from, and output from the        memory cell.
       
 #HOW TO RUN CODE
+
+
 step 1:
 extract a voice from running the voice recorder file
+
 step 2:
 run the SEP file  in jupyternotebook
 at last add your recored file in it and run the cells below it.
